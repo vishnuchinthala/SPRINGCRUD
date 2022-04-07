@@ -20,11 +20,6 @@ public class Address {
 	private String city;
 	private String state;
 	
-	/*
-	 * @ManyToOne
-	 * 
-	 * @JoinColumn(name="STUDENT_ID") private Student student;
-	 */
 
 
 	public String getStreet() {
@@ -46,10 +41,7 @@ public class Address {
 		this.state = state;
 	}
 	
-	/*
-	 * public Student getStudent() { return student; } public void
-	 * setStudent(Student student) { this.student = student; }
-	 */
+	
 	
 	public long getAddress_id() {
 		return address_id;
